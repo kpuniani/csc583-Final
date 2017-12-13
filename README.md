@@ -27,43 +27,41 @@ Visitor application has been developed using MEVN(Mongo,express,vue,node)
 
 Prerequisties:Node and the Node Package Manager (NPM) should be already installed.
 
-#### Clone this repository:
+* #### Clone this repository:
 
-https://github.com/kpuniani/csc583-Final.git
+  https://github.com/kpuniani/csc583-Final.git
 
-#### Go to the folder:
+* #### Go to the folder:
 
-cd csc583-Final
+  cd csc583-Final
 
-#### Install all dependicies:
+* #### Install all dependicies:
 
-npm install 
+  npm install 
 
 Once that is complete you can now run theapplication with the following commands:
 
-#### To run front end:
+* #### To run front end:
 
-npm run dev
+  npm run dev
 
-#### To run backend: 
+* #### To run backend: 
 
-node server
+  node server
 
-#### To start Mongo: 
+* #### To start Mongo: 
 
-sudo service mongod start
-
-
-# Architecture 
-
+  sudo service mongod start
 
 
 
 # Plan of Action
 
-- [ ] Nonfunctional analysis
-- [ ] Architecture design
-- [ ] Test deployment
+- [X] Analyzed nonfunctional requirements
+- [X] Setup envoirnment and connectivity
+- [X] Registration page
+- [X] Admin view
+- [ ] Mocha Testing
 
 
 
