@@ -21,8 +21,13 @@ In this view, admin can see the list of all registered users in the table format
 * Admin should be able to access list of registered users in tabular form.
 
 ## Screenshots
-![](images/Admin.PNG)
+* Responsive Register View
+
 ![](images/Register.PNG)
+
+* Admin View
+
+![](images/Admin.PNG)
 
 ## Tools
 
