@@ -13,12 +13,16 @@ In this view, admin can see the list of all registered users in the table format
 
 # Non-functional Requirements
 
-## Design 
+## Design
 
 * This project followed same design principles which were followed for the csc-583 class project.
 * Application should have two UI views: register users, show register
 * Registration page should have responcivness and should work in tablet envoirnment.
 * Admin should be able to access list of registered users in tabular form.
+
+## Screenshots
+![](images/Admin.PNG)
+![](images/Register.PNG)
 
 ## Tools
 
@@ -38,7 +42,7 @@ Prerequisties:Node and the Node Package Manager (NPM) should be already installe
 
 * #### Install all dependicies:
 
-  npm install 
+  npm install
 
 Once that is complete you can now run theapplication with the following commands:
 
@@ -46,16 +50,16 @@ Once that is complete you can now run theapplication with the following commands
 
   npm run dev
 
-* #### To run backend: 
+* #### To run backend:
 
   node server
 
-* #### To start Mongo: 
+* #### To start Mongo:
 
   sudo service mongod start
 
 # Architecture
-This application has been developed using MEVN stack.Vuejs has been used to implement the front end and comminucates with the Nodejs,express to get responce using endpoints.Moreover server communicates with the database (mongodb) to store or retrieve data from the database. 
+This application has been developed using MEVN stack.Vuejs has been used to implement the front end and comminucates with the Nodejs,express to get responce using endpoints.Moreover server communicates with the database (mongodb) to store or retrieve data from the database.
 
 # Plan of Action
 
@@ -64,8 +68,3 @@ This application has been developed using MEVN stack.Vuejs has been used to impl
 - [X] Registration page
 - [X] Admin view
 - [ ] Mocha Testing
-
-
-
-
-
