@@ -53,7 +53,8 @@ Once that is complete you can now run theapplication with the following commands
 
   sudo service mongod start
 
-
+# Architecture
+This application has been developed using MEVN stack.Vuejs has been used to implement the front end and comminucates with the Nodejs,express to get responce using endpoints.Moreover server communicates with the database (mongodb) to store or retrieve data from the database. 
 
 # Plan of Action
 
